@@ -10,7 +10,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc21/mai
   return
 end
 _G.alreadyexec = true
-_G.CTitle = "ShieldCryp" 
+_G.CTitle = "ShieldCrypt" 
 
 
 
