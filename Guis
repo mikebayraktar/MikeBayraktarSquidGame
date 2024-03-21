@@ -128,7 +128,7 @@ Title.TextSize = 14
 Title.TextWrapped = true
 Title.TextXAlignment = Enum.TextXAlignment.Left
 Title.TextYAlignment = Enum.TextYAlignment.Center
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc2/main/1234",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc21/main/Mikeexc24",true))()
 Title.Text = _G.words[math.random(1,#_G.words)]
 
 
