@@ -2,7 +2,7 @@
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
-Text = "Script Made By https://discord.gg/bHpptYN88n"; -- what the text says (ofc)
+Text = "Script Made By MikeBayraktar"; -- what the text says (ofc)
 Icon = ""; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
@@ -10,14 +10,14 @@ Duration = 5; -- how long the notification should in secounds
 
 
 --[[
-  Script Made By ShieldCrypt
+  Script Made By MikeBayraktar
   i borrow the gui because it's looks cool
 --]]
 
 local success, err = pcall(function()
 if _G.alreadyexec == true then
   _G.NotificationText = "It's already executed"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc21/main/ShieldCrypt",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarSquidGame/main/MikeBayraktarNotifionScreen",true))()
   return
 end
 _G.alreadyexec = true
@@ -139,7 +139,7 @@ Title.TextSize = 14
 Title.TextWrapped = true
 Title.TextXAlignment = Enum.TextXAlignment.Left
 Title.TextYAlignment = Enum.TextYAlignment.Center
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc21/main/Mikeexc24",true))()
+loadstring(game:HttpGet("https://github.com/mikebayraktar/MikeBayraktarSquidGame/blob/main/MikeBayraktarGTitle",true))()
 Title.Text = _G.words[math.random(1,#_G.words)]
 
 
@@ -524,7 +524,7 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
         if message == ":Disable" then
              Main:Destroy()
              _G.NotificationText = "Uh something went wrong - please wait because the owner watching anime"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc21/main/Mikeexc24",true))()
+loadstring(game:HttpGet("https://github.com/mikebayraktar/MikeBayraktarSquidGame/blob/main/MikeBayraktarGTitle",true))()
          end
     end
 end)
@@ -612,7 +612,7 @@ end
 -- Actual Script
 --example:
 local other
-other = addButton("Script Made By: ShieldCrypt", function()
+other = addButton("Script Made By: MikeBayraktar", function()
 return
 end)
 other:WaitForChild("Name").TextColor = BrickColor.new(0,255,0)
