@@ -139,7 +139,7 @@ Title.TextSize = 14
 Title.TextWrapped = true
 Title.TextXAlignment = Enum.TextXAlignment.Left
 Title.TextYAlignment = Enum.TextYAlignment.Center
-loadstring(game:HttpGet("https://github.com/mikebayraktar/MikeBayraktarSquidGame/blob/main/MikeBayraktarGTitle",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarSquidGame/main/MikeBayraktarGTitle",true))()
 Title.Text = _G.words[math.random(1,#_G.words)]
 
 
