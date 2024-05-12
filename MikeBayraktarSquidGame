@@ -1,4 +1,9 @@
 
+
+
+
+
+
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
