@@ -7,7 +7,7 @@ local url = "https://discord.com/invite/62h8Dx2CXk" setclipboard(url) print("Dis
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
-Text = "Script Made By MikeBayraktar"; -- what the text says (ofc)
+Text = "Script Made By MichaelVest"; -- what the text says (ofc)
 Icon = ""; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
@@ -15,7 +15,7 @@ Duration = 5; -- how long the notification should in secounds
 
 
 --[[
-  Script Made By MikeBayraktar
+  Script Made By VestaHub
   i borrow the gui because it's looks cool
 --]]
 
@@ -617,13 +617,13 @@ end
 -- Actual Script
 --example:
 local other
-other = addButton("Script Made By: MikeBayraktar", function()
+other = addButton("Script Made By: VestaHub", function()
 return
 end)
 other:WaitForChild("Name").TextColor = BrickColor.new(0,255,0)
 
 local other
-other = addButton("Hello, I am Mike, I am 22 years old.", function()
+other = addButton("Hello, İm VestaHub.", function()
 return
 end)
 other:WaitForChild("Name").TextColor = BrickColor.new(0,255,0)
