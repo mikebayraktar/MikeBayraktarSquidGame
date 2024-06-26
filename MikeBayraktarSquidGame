@@ -7,7 +7,7 @@ local url = "https://discord.com/invite/62h8Dx2CXk" setclipboard(url) print("Dis
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
-Text = "Script Made By MichaelVest"; -- what the text says (ofc)
+Text = "Script Made By VestaHub"; -- what the text says (ofc)
 Icon = ""; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
@@ -887,7 +887,7 @@ while true do
 if not success then
 _G.NotificationText = err
 _G.ErrorTrue = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc21/main/ShieldCrypt",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarSquidGame/main/MikeBayraktarNotifionScreen",true))()
 else
 _G.ErrorTrue = false
 end
