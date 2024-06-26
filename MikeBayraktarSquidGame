@@ -887,7 +887,7 @@ while true do
 if not success then
 _G.NotificationText = err
 _G.ErrorTrue = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarSquidGame/main/MikeBayraktarNotifionScreen",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarSquidGame/main/MikeBayraktarGTitle",true))()
 else
 _G.ErrorTrue = false
 end
